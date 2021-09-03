@@ -2,8 +2,8 @@
 PImage logo;
 
 void setup(){
-    size(1200, 625, P2D);
-    logo = loadImage("artiso.png");
+    size(868, 908, P2D);
+    logo = loadImage("innolizer-signet.png");
 }
 
 void draw(){
@@ -12,6 +12,7 @@ void draw(){
     // image(cam, 0, 0, width, height);
 
     int diameter = int( map(mouseX, 0, width, 5, 50));
+    println(diameter);
     logo.loadPixels();
     fill(0);
     stroke(0);

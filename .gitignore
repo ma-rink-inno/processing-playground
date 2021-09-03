@@ -11,3 +11,7 @@ out
 
 *.mp4
 ffmpeg.txt
+
+
+**/bin/
+**/obj/
